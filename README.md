@@ -1,95 +1,103 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Object detecting device usaing Arduino and ultrasonic sensor 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Genbrozz
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Ivan Christopher-TKM College Of Engineering
+- Member 2: Aadil Ajeev-TKM College Of Engineering
+- Member 3: Gokul Shaji-TKM College Of Engineering
 
 ### Project Description
-[2-3 lines about what your project does]
+An Object detection tool using Arduino Uno and Ultrasonic Sensor.The components used are Led,Arduino Uno,Buzzer,Jumper wires,Breadboard,Ultrasonic Sensor,Resistors.
+Can be useful in finding blind spots and for blind people.It can also be  used for various purposes like car parking system etc.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Constant Beeping with/without any objects
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+By using a ultrasonic sensor,object detection can be implemented
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- C++
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Ultrasonic sensor
+- Arduino uno
+- Led
+- Buzzer
+- Breadboard
+- Jumperwire
+- Resistor
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Arduino IDE
 
 # Run
-[commands]
+pinMode
+digitalWrite
+pulseIn{Functions used}
 
-### Project Documentation
-For Software:
+Run the code in Arduino IDE and use the following functions carefully
+Connect the Arduino circuit to laptop or external power supply to see the result
+note:When external supply is connected make sure it will not exceed the threshold voltage.
+
+
+
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![WhatsApp Image 2024-10-26 at 06 42 19_b8478b95](https://github.com/user-attachments/assets/4ee12c9a-13ac-4bef-827d-113ce8e3a9b4)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+!![WhatsApp Image 2024-10-26 at 06 42 20_95108781](https://github.com/user-attachments/assets/34fe77be-de30-4aec-bccb-febe6429c93b)
+
+
+!![WhatsApp Image 2024-10-26 at 06 42 20_2ae0b59d](https://github.com/user-attachments/assets/547f61b7-2384-4e3b-9254-fc73fc816c12)
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+!![Screenshot 2024-10-26 064821](https://github.com/user-attachments/assets/eab9ed3a-c9d2-4911-bf80-194b9402a40e)
+
 
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit]![WhatsApp Image 2024-10-26 at 06 42 19_b8478b95](https://github.com/user-attachments/assets/be047f07-c2d1-47b0-9e6b-b0b74e6cafa8)
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+
+![Schematic]![Screenshot 2024-10-26 064821](https://github.com/user-attachments/assets/80890322-3cee-44bf-aa9e-927c93cdd39f)
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+![Components]![comp](https://github.com/user-attachments/assets/8a066c22-4520-4205-b656-67b7391beac0)
+Ultrasonic Sensor,Jumperwire,Buzzer,Arduino UNO,Breadboard,Led,Resistor
+![Build]![1st phase](https://github.com/user-attachments/assets/adc0602f-8b58-45c3-b180-0689b0dfb535)
+A 5v supply is connected to breadboard and ground also connected
+a led with a 27 ohm resistor is connected to positive 5 volt and negative of led is grounded.
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Final]![WhatsApp Image 2024-10-26 at 06 42 19_b8478b95](https://github.com/user-attachments/assets/088c54ed-d44a-4fc4-86f5-89619035741b)
+
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/17lrXcpo1HdYSvPurVVPNfvIsY01ki4fw/view?usp=drive_link
+
+When a supply of 5v is provided ,The Ultrasonic sensor gets activated and it detects objects and if the distance is less than 20 cm,The buzzer gets activated and will start beeping.The Led along with it will also blink.
 
 # Additional Demos
-[Add any extra demo materials/links]
+https://www.tinkercad.com
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Aadil Ajeev: coding and circuit building
+- Ivan Christoper: coding and circuit building
+- Gokul Shaji: circuit analyst and circuit building
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
