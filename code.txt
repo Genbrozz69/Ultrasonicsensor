@@ -1,0 +1,36 @@
+
+const int trigger=6; 
+const int echo=7;
+
+float dist;
+void setup(){
+  Serial.begin(9600);
+  pinMode(trigger,OUTPUT);
+  pinMode(echo,INPUT);
+  pinMode(13,OUTPUT);
+  
+}
+void loop(){
+  digitalWrite(trigger,LOW);
+  delayMicroseconds(5);        
+  digitalWrite(trigger,HIGH);  
+  delayMicroseconds(10);      
+  digitalWrite(trigger,LOW); 
+  dist=pulseIn(echo,HIGH);      
+  dist = (dist*0.0343)/2;
+  if (dist<50)
+{
+digitalWrite(2,HIGH);
+    digitalWrite(11,HIGH);
+}
+else
+{
+  digitalWrite(2,LOW);
+  digitalWrite(11,LOW);
+}
+                                   
+  Serial.print ("Distance = ");
+  Serial.print (dist);         
+  Serial.print (" cm");         
+  Serial.write (10);            
+  delay(200); }    
